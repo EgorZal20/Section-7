@@ -19,7 +19,8 @@
 .header__seven::after {
     content: ' ';
     display: flex;
-    margin-left: 47%;
+    margin-left: auto;
+    margin-right: auto;
     border-bottom: 4px solid #2a417e;
     width: 84px;
     bottom: 475px;

@@ -9,9 +9,6 @@
         margin-right: auto;
         line-height: 25px;
     }
-    .header__seven::after {
-        margin-left: 44%;
-    }
     .name__email {
         display: block;
         margin-top: 50px;
@@ -47,5 +44,36 @@
     .name_email {
         display: flex;
         justify-content: center;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .section__seven {
+        height: 740px;
+    }
+    .header__seven {
+        font-size: 25px;
+    }
+    .header__seven::after {
+        margin-top: 20px;
+        
+    }
+    .subtitle__seven {
+        width: 350px;
+        font-size: 14px;
+    }
+    .your_name {
+        width: 350px;
+    }
+    .your_email {
+        width: 350px;
+    }
+    .your_massage {
+        width: 370px;
+        height: 150px;
+    }
+    .send__massage {
+        padding-left: 30px;
+        padding-right: 30px;
     }
 }
